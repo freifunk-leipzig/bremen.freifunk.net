@@ -9,7 +9,7 @@
     - name: Termine
       link: /#termine
     - name: Karte
-      link: https://map.bremen.freifunk.net/
+      link: http://karte.leipzig.freifunk.net:8018/meshviewer2/build/
     #- name: Projekte
     #  link: /#projekte
     - name: Partner
