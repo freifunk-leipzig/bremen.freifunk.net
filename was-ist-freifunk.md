@@ -23,7 +23,7 @@ eine Rechnung, sondern wer von der Idee überzeugt ist [spendet] einfach.
 
 [spendet]: /unterstuetzen.html#spenden
 
-### Nachbarschafts- und Flüchtlingshilfe
+### Digitale Teilhabe und Nachbarschaftshilfe
 
 Man vergisst es gerne, aber auch heute hat nicht jeder einen eigenen
 Internetanschluss. Nicht immer heißt das, dass die Betroffenen auch offline sein
