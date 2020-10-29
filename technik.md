@@ -17,17 +17,5 @@ Schließlich sind wegen der Entfernungen aber nicht alle Router per Funk verbund
 
 ## Autoupdate
 
-Die Freifunk-Router updaten sich automatisch, falls diese Einstellung nicht im Configmode deaktiviert wird. So können wir neue Versionen der Software, in der beispielsweise Sicherheitslücken geschlossen oder neue Features hinzugefügt wurden, automatisch auf den Routern aktualisieren.
-
-Es gibt verschiedene „Update-Kanäle“:
-<dl class="dl-horizontal">
-    <dt><a href="http://downloads.bremen.freifunk.net/firmware/stable/">Stable</a></dt>
-    <dd>Nur das Beste: Hier landet Software, die wir lange selbst gestestet haben. Ein Vier-Augen-Prinzip sichert gegen Fehler ab: Jedes Update muss von mindestens zwei unserer Entwickler begutachtet und signiert werden, bevor es auf den Geräten landet. Hier sind nur selten Updates zu erwarten.</dd>
-    <dt><a href="http://downloads.bremen.freifunk.net/firmware/testing/">Testing</a></dt>
-    <dd>Bevor ein Updatepaket als stabil deklariert wird, muss es erstmal getestet werden. Dazu ist dieser Kanal gedacht. Wer kein Problem damit hat, mit Pech mal seinen Router neu zu flashen oder per Hand neuzustarten, bekommt Updates hier früher als die anderen. Außerdem brauchen wir natürlich immer Tester!</dd>
-    <dt><a href="http://downloads.bremen.freifunk.net/firmware/nightly/">Nightly</a></dt>
-    <dd>In diesem Kanal testen wir brandneue Entwicklungen. Daher ist die Software oft noch nicht ausgereift und enthält massive Fehler. Dieser Kanal ist nur für Entwickler und Abenteuerfreudige zu empfehlen.</dd>
-</dl>
-
 [fastd]: https://projects.universe-factory.net/projects/fastd
 [B.A.T.M.A.N. Advanced]: http://www.open-mesh.org/projects/batman-adv

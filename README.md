@@ -7,8 +7,8 @@ Dies ist der Inhalt von https://leipzig.freifunk.net. Die Seite wird mit [Jekyll
 Mit diesen Schritten kann man die Freifunk-Webseite auf dem eigenen Rechner ansehen und testen:
 
 * Bundler installieren (z.B. `gem install bundler`)
-* Repository auschecken (inkl. Untermodulen): `git clone https://github.com/freifunk-leipzig/leipzig.freifunk.net-from-bremen.git`
-* In das ausgecheckte Verzeichnis wechseln: `cd leipzig.freifunk.net`
+* Repository auschecken (inkl. Untermodulen): `git clone --recursive https://github.com/freifunk-leipzig/leipzig.freifunk.net-from-bremen.git`
+* In das ausgecheckte Verzeichnis wechseln: `cd leipzig.freifunk.net-from-bremen`
 * Benötigte Software (z.B. Jekyll) installieren: `bundle install`
 * Jekyll starten: `bundle exec jekyll serve`
 
