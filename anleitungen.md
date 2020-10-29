@@ -39,11 +39,6 @@ In oberen Fall wäre das die Datei mit dem Namen: gluon-ffhb-*GLUONVERSION*+brem
 
 **Eine falsche Firmware kann dazu führen, dass wir den Router mit sehr großem Aufwand reanimieren müssen.**
 
-###### Ubiquiti Besonderheit (Richtfunk)
-<s>Für die Richtfunkgeräte Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridge muss das Image der Bullet benutzt werden.</s>
-
-*Dies entfällt ab Version 2015.1.2, in welcher separierte Images für alle Geräte eingeführt wurden.*
-
 **Ganz wichtig:** Auf der Konfigurationsseite für das Upgrade, wird auch die Version der Originalfirmware angezeigt. Ist die Versionsnummer > 5.5.x muss zwingend ein Downgrade der Firmware durchgeführt werden. Eine detailierte Anleitung ist in Vorbereitung. Bitte kommt mit dem Gerät zu einem der Freifunktreffen, wir unterstützen dort gerne.
 
 ### Firmware aufspielen
@@ -112,7 +107,7 @@ Dein Freifunkrouter soll sich über das Internet mit anderen Routern verbinden. 
 <img src="http://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten">
 
 Damit andere Freifunker oder Nachbarn den Router auch auf der **Freifunk-Karte** finden, können die **Koordinaten** des Betriebsortes des Routers eingetragen werden. Lässt man den Haken weg, so erscheint der Router nicht auf der Karte.
-Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf <a href="https://map.bremen.freifunk.net/" target="_blank">unserer Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (über das Stecknadel-Symbol oben rechts).
+Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf <a href="http://karte.leipzig.freifunk.net:8018/meshviewer2/build" target="_blank">unserer Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (über das Stecknadel-Symbol oben rechts).
 
 <img src="http://jel.to/ff_pics/gluon_3.png" width="350px" title="Kontakt">
 
@@ -138,7 +133,7 @@ Den geflashten und eingerichteten Freifunk-Router musst du nun **mit deinem Heim
 
 <img src="http://jel.to/ff_pics/ff_an_fritz.jpg" title="Anschluss Freifunkrouter">
 
-Das andere Ende des grauen LAN-Kabels kommt in den meist **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) .<br>An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port **(„2.“)** steckt, musst du **nichts verändern** (hier das orangene Kabel).<br>Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz. Nach kurzer Zeit wird der Name deines Routers auf der [Knotenkarte](https://map.bremen.freifunk.net) auftauchen.
+Das andere Ende des grauen LAN-Kabels kommt in den meist **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) .<br>An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port **(„2.“)** steckt, musst du **nichts verändern** (hier das orangene Kabel).<br>Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz. Nach kurzer Zeit wird der Name deines Routers auf der [Knotenkarte](http://karte.leipzig.freifunk.net:8018/meshviewer2/build) auftauchen.
 
 
 ## Expertenmodus
