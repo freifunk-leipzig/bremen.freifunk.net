@@ -2,7 +2,7 @@
 ---
 document.addEventListener("DOMContentLoaded", function() {
   var
-    firmware_base_url = 'https://downloads.bremen.freifunk.net/firmware/',
+    firmware_base_url = 'http://firmware.leipzig.freifunk.net:8055/srv2/gluon/1.2.3/output/images/',
     branch = 'stable',
     vendors = {
       "tp-link": "TP-LINK",

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Freifunk Bremen</title>
+	<subtitle>Freifunk steht für freie Kommunikation in digitalen Datennetzen. Wir verstehen frei als öffentlich zugänglich, nicht kommerziell, im Besitz der Gemeinschaft und unzensiert.</subtitle>
+	<id>http://localhost:4000/</id>
+	<updated></updated>
+	<link href="http://localhost:4000/blog/atom.xml" rel="self" type="application/atom+xml" />
+	<logo>/images/logo/logo.png</logo>
+	
+</feed>
