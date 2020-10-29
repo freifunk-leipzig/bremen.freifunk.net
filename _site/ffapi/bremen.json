@@ -1,0 +1,209 @@
+{
+  "name": "Freifunk Bremen",
+  "url": "https://bremen.freifunk.net",
+  "location": {
+    "city": "Bremen",
+    "country": "DE",
+    "lat": 53.0758099,
+    "lon": 8.80717,
+    "address": {
+      "Name": "Hackerspace Bremen",
+      "Street": "Bornstraße 14/15",
+      "Zipcode": "28195"
+    }
+  },
+  "contact": {
+    "email": "info@bremen.freifunk.net",
+    "irc": "irc://irc.hackint.org/ffhb",
+    "ml": "liste@bremen.freifunk.net",
+    "facebook": "https://facebook.com/FreifunkBremen",
+    "twitter": "@FreifunkHB"
+  },
+  "state": {
+    "nodes": 741,
+    "description": "Freifunk Bremen in its current form has been founded in the end of 2013. Consisting of mostly young people, the community is still growing and establishing itself in its city.",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2017-11-01T19:25:00.000Z"
+  },
+  "services": [
+    {
+      "serviceName": "SIP",
+      "serviceDescription": "SIP-based VoiP Service",
+      "internalUri": "http://sip.ffhb.de/web/"
+    },
+    {
+      "serviceName": "Wikipedia-Mirror",
+      "serviceDescription": "A Wikipedia mirror with German and English language as well as photos.",
+      "internalUri": "wikipedia.ffhb.de"
+    }
+  ],
+  "timeline": [
+    {
+      "description": "Birth",
+      "timestamp": "2013-12-10",
+      "url": "https://wiki.bremen.freifunk.net/Treffen/2013_12_20"
+    },
+    {
+      "description": "new Website",
+      "timestamp": "2014-02-13",
+      "url": "https://bremen.freifunk.net/blog/2014/02/13/neue-webseite.html"
+    },
+    {
+      "description": "first testing version of firmware",
+      "timestamp": "2014-03-24",
+      "url": "https://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html"
+    },
+    {
+      "description": "new node map \"Meshviewer\"",
+      "timestamp": "2015-05-16",
+      "url": "https://bremen.freifunk.net/blog/2015/05/16/neue-karte.html"
+    },
+    {
+      "description": "first stable version of firmware 2014.4+bremen0",
+      "timestamp": "2015-06-28",
+      "url": "https://bremen.freifunk.net/blog/2015/06/28/erste-stabile-firmware.html"
+    },
+    {
+      "description": "Freifunk Bremen goes Breminale",
+      "timestamp": "2015-07-15",
+      "url": "https://bremen.freifunk.net/blog/2015/07/29/breminale-r%C3%BCckblick.html"
+    },
+    {
+      "description": "new stable firmware 2015.1.2+bremen1",
+      "timestamp": "2015-08-07",
+      "url": "https://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2015-1-1-bremen1"
+    },
+    {
+      "description": "new stable firmware 2015.1.2+bremen2",
+      "timestamp": "2015-11-08",
+      "url": "https://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2015-1-2-bremen2"
+    },
+    {
+      "description": "new status page for gateways",
+      "timestamp": "2015-11-19",
+      "url": "https://bremen.freifunk.net/blog/2015/11/19/statusseite.html"
+    },
+    {
+      "description": "fundraising concert for refugees successful",
+      "timestamp": "2015-12-12",
+      "url": "https://bremen.freifunk.net/blog/2015/12/12/grossartiger-erfolg-der-spendenkampagne.html"
+    },
+    {
+      "description": "new stable firmware 2015.1.2+bremen3",
+      "timestamp": "2015-12-30",
+      "url": "https://bremen.freifunk.net/blog/2015/12/30/v2015-1-2-bremen3-wird-stable.html"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "Blog",
+      "category": "blog",
+      "type": "rss",
+      "url": "https://bremen.freifunk.net/blog/feed.xml"
+    },
+    {
+      "name": "Blog",
+      "category": "blog",
+      "type": "atom",
+      "url": "https://bremen.freifunk.net/blog/atom.xml"
+    },
+    {
+      "name": "Kalendar",
+      "category": "ics",
+      "type": "ICS",
+      "url": "https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%c3%b6nlich1?export"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://map.bremen.freifunk.net/",
+      "interval": "1min",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "https://map.bremen.freifunk.net/#/graph",
+      "interval": "1min",
+      "technicalType": "meshviewer",
+      "mapType": "structural"
+    },
+    {
+      "url": "https://downloads.bremen.freifunk.net/data/nodelist.json",
+      "interval": "1min",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    }
+  ],
+  "support": {
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE69 4306 0967 2033 5844 00",
+        "BIC": "GENODEM1GLS",
+        "usage": "Freifunkspende"
+      },
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "34467"
+        }
+      ]
+    }
+  },
+  "privacy": {
+    "policyurl": "https://wiki.bremen.freifunk.net/Infrastruktur/Datenschutz"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "http://downloads.bremen.freifunk.net/firmware/",
+      "docs": "https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Home",
+      "vpnaccess": "automatic",
+      "techrestrictions": "As the Freifunk Bremen firmware is using Gluon as its basis, it has the same restrictions and hardware requirements: http://gluon.readthedocs.org/"
+    },
+    "dns": [
+      {
+        "domainname": "ffhb.de",
+        "nameserver": [
+          "dns.bremen.freifunk.net"
+        ]
+      },
+      {
+        "domainname": "bremen.freifunk.net",
+        "nameserver": [
+          "dns.bremen.freifunk.net"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a06:8782::/32"
+        },
+        {
+          "network": "fd2f:5119:f2c::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.196.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational"
+    ]
+  },
+  "api": "0.4.14"
+}
