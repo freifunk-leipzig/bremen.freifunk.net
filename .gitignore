@@ -7,7 +7,6 @@
 Gemfile.lock
 .sass-cache/
 video/*
-_site/*
 flyer
 wiki
 api/config.php
