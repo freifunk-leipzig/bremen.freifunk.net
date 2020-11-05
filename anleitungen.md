@@ -8,13 +8,13 @@ Damit dein Router Teil des Freifunk-Netzes werden kann, muss er mit dem Freifunk
 Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen Router bei einem der nächsten Freifunktreffen ein!
 
 ## Auswahl der Hardware
-Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du [hier](http://wiki.bremen.freifunk.net/Firmware/Changelog).
+Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du in unserem [Firmware-Donwloader](http://firmware.leipzig.freifunk.net:8004/srv2/gluon/downloader/firmware.php?id=0). Dort kannst du Schritt für Schritt die passende Firmware für deinen Router aussuchen.
 Eine gute Übersichtseite mit vielen Informationen findet sich auch im [Wiki von freifunk.net](http://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware).
 
 ### Für den Innenbereich
 
-Für den schmalen Geldbeutel empfehlen wir den  [**TP-Link TL-WR841N**](http://www.heise.de/preisvergleich/tp-link-tl-wr841nd-a601787.html) für knapp 20 €.
-Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren TP-Link TL-WDR3600 (gebraucht ab ca. 40€), TL-WDR4300 (gebraucht ab ca. 45€) oder TL-WDR4900 (gebraucht ab ca 50 €).
+Für den schmalen Geldbeutel empfehlen wir den **TP-Link TL-WDR3600** (gebraucht ab ca. 10€ bis knapp 25 € zu haben).
+Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren **TP-Link TL-WDR4300** (gebraucht ab ca. 30€) oder **TP-Link TL-WDR4900** (gebraucht ab ca 50 €). Für den **TP-Link TL-WR841N** können wir nicht mehr empfehlen, da er für weitere Firmware-Entwicklungen zu wenig Flash- und RAM-Speicher zur Verfügung hat. 
 
 ### Richtfunk für den Außenbereich
 
@@ -33,9 +33,9 @@ Zuerst brauchst du die passende Freifunk-Firmware für deinen Router. Die **Rüc
 
 Unter **„1.“** findest du die **Modellnummer** und unter **„2.“** die **Revisionsnummer**. „Ver 8.1“ steht dabei allgemein für Version 8, „Ver 7.4“ für Version 7 usw.
 
-Auf der [Firmwareseite](firmware.html) suchst du dir nun genau dein Router-Modell in deiner Revision, und lädst die Datei für die **"Erstinstallation"** herunter.
+Im [Firmware-Donwloader](http://firmware.leipzig.freifunk.net:8004/srv2/gluon/downloader/firmware.php?id=0) suchst du dir nun genau dein Router-Modell in deiner Revision, und lädst die Datei für die **"Erstinstallation"** herunter.
 
-In oberen Fall wäre das die Datei mit dem Namen: gluon-ffhb-*GLUONVERSION*+bremen*BREMERVERSION*-tp-link-tl-**wr841n**-nd-**v8**.bin. Achte bitte unbedingt darauf, dass Modellbezeichnung und Revision genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.
+In oberen Fall wäre das die Datei mit dem Namen: gluon-*GLUONVERSION*-tp-link-tl-**wr841n**-nd-**v8**.bin. Achte bitte unbedingt darauf, dass Modellbezeichnung und Revision genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.
 
 **Eine falsche Firmware kann dazu führen, dass wir den Router mit sehr großem Aufwand reanimieren müssen.**
 
@@ -95,7 +95,7 @@ Um das neue Menü des Routers zu erreichen, tippst du diesmal die **Adresse 192.
 
 <img src="http://jel.to/ff_pics/gluon_1.jpg" title="Neue Weboberfläche">
 
-Zuerst kannst du dir einen **beliebigen Namen** für deinen  Freifunkrouter ausdenken (oder ihn so lassen).
+Zuerst kannst du dir einen **beliebigen Namen** für deinen  Freifunkrouter ausdenken (oder ihn so lassen). Dieser Name erscheint dann auf der Freifunk-Karte.
 Außerdem musst du festlegen, ob die Firmware des Routers sich automatisch aktualisieren soll. In den meisten Fällen ist eine automatische Aktualisierung sinnvoll, so ist dein Router immer auf dem neusten Stand und unerwartete  Netzausfälle bleiben aus.
 
 <img src="http://jel.to/ff_pics/gluon_2.png" width="350px" title="Mesh-VPN">
