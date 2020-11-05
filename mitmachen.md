@@ -17,11 +17,13 @@ Also: Hilf allen, indem du einen eigenen Freifunk-Router betreibst!
 
 Es gibt zwei Möglichkeiten, wie du deinen eigenen Freifunk-Router bekommen kannst:
 
+
+# HW4F?
 ## Router abholen
 
 Am einfachsten ist es, wenn du dir einen von uns bereits vorbereiteten Router abholst und eventuell sogar mit uns zusammen die Ersteinrichtung durchführst. Dann brauchst du den Router zu Hause nur noch anzuschließen und es funktioniert.
 
-In unserem Wiki haben wir eine kleine Liste von [Routerabholstandorten](http://wiki.bremen.freifunk.net/Router/Routerabholstandorte). Schau doch dort einmal, ob jemand in deiner Nähe dir einen Freifunk-Router geben möchte. Ansonsten schreib einfach eine Mail an die [Mailingliste] und frag, wer in deiner Umgebung gerade Router abzugeben hat.
+In unserem Wiki haben wir eine kleine Liste von [Routerabholstandorten](https://www.openstreetmap.org/way/41760585). Schau doch dort einmal, ob jemand in deiner Nähe dir einen Freifunk-Router geben möchte. Ansonsten schreib einfach eine Mail an die [Mailingliste] und frag, wer in deiner Umgebung gerade Router abzugeben hat.
 
 ## Router selbst flashen
 Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei eignen sich für verschiedene Anwendungszwecke verschiedene Modelle:

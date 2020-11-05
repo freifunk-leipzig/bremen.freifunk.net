@@ -5,7 +5,8 @@ title: Kontakt
 Kontakt
 =======
 
-Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen:
+Bei Fragen zum Freifunk-Leipzig-Projekt freuen wir uns über Kontaktaufnahmen:
+
 
 * per E-Mail: [info@leipzig.freifunk.net](mailto:info@leipzig.freifunk.net)
 * im Chat:
@@ -14,18 +15,16 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen:
 * auf Twitter: [@Freifunk_L](https://twitter.com/freifunk_l)
 * auf Facebook: [FreifunkLeipzig](https://de-de.facebook.com/FreifunkLeipzig)
 
-## Reaktionszeit
-Wir geben uns Mühe, innerhalb eines **Tages** (im Chat in einer **Stunde**) zu antworten; dies ist jedoch nicht immer möglich. Wir bitten deshalb um ein wenig Geduld, lasst euch Chatfenster länger geöffnet und erwähnt einen der Anwesenden mit Namen, wartet ein paar Tage nach einer Mail und schickt dann gerne eine Erinnerungsmail. 
-Bei komplexeren Fragen empfiehlt sich der Besuch unserer Treffen.
-
 ## Wiki und FAQ
-Für Fragen zu spezifischen Themen, gibt es eine  Wiki-Seite für [Ansprechpartner](http://wiki.bremen.freifunk.net/Infrastruktur/Ansprechpartner).  
-Ansonsten empfiehlt es sich immer einen Blick in unsere [FAQs](faq.html) und ins [Wiki](http://wiki.bremen.freifunk.net/) zu werfen. Viele Fragen und Themen sind dort bereits beantwortet und erklärt.
+Für Fragen zu spezifischen Themen, gibt es eine  Wiki-Seite für [Ansprechpartner](http://wiki.leipzig.freifunk.net/Sidebar7).  
+
+Ansonsten empfiehlt es sich immer einen Blick in unsere [FAQs](faq.html) und ins [Wiki](http://wiki.leipzig.freifunk.net/Hauptseite) zu werfen. Viele Fragen und Themen sind dort bereits beantwortet und erklärt.
 
 ## Treffen
+
 Wir treffen uns außerdem zweimal im Monat, jeweils am 1. und 3. Donnerstag ab 20 Uhr im Leipziger Hackerspace [Dezentrale]
 ](https://dezentrale.space/). Schau doch mal vorbei, wir
 freuen uns immer über neue Gesichter!
 
 ## Mailingliste
-Für Interessierte besteht außerdem die Möglichkeit, unsere [Mailingliste](https://lists.ffhb.de/mailman/listinfo/ff-bremen/) zu abonnieren. Auf ihr wird diskutiert und ausgetauscht.
+<!--Für Interessierte besteht außerdem die Möglichkeit, unsere [Mailingliste](https://lists.ffhb.de/mailman/listinfo/ff-bremen/) zu abonnieren. Auf ihr wird diskutiert und ausgetauscht. -->

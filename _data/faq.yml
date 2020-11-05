@@ -6,7 +6,7 @@
     - question: Wie kann ich Freifunk nutzen?
       answer: |
         In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden.
-        Den nächsten bremischen Zugangspunkt findest Du auf unserer [Karte "Meshviewer"](https://map.bremen.freifunk.net/).
+        Den nächsten bremischen Zugangspunkt findest Du auf unserer [Karte "Meshviewer"](http://karte.leipzig.freifunk.net:8018/meshviewer2/build).
         Deutschlandweit wirst Du unter [freifunk-karte.de](https://freifunk-karte.de/) fündig.
     - question: Wer seid ihr?
       answer: |
