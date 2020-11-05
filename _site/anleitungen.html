@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" type="text/css" href="/assets/main.css?f99b22a">
+  <link rel="stylesheet" type="text/css" href="/assets/main.css?6d10bbd">
   <title>Anleitungen - Freifunk Bremen</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="Freifunk steht für freie Kommunikation in digitalen Datennetzen. Wir verstehen frei als öffentlich zugänglich, nicht kommerziell, im Besitz der Gemeinschaft und unzensiert.">
@@ -120,13 +120,13 @@
 <p>Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen Router bei einem der nächsten Freifunktreffen ein!</p>
 
 <h2 id="auswahl-der-hardware">Auswahl der Hardware</h2>
-<p>Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du <a href="http://wiki.bremen.freifunk.net/Firmware/Changelog">hier</a>.
+<p>Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du in unserem <a href="http://firmware.leipzig.freifunk.net:8004/srv2/gluon/downloader/firmware.php?id=0">Firmware-Donwloader</a>. Dort kannst du Schritt für Schritt die passende Firmware für deinen Router aussuchen.
 Eine gute Übersichtseite mit vielen Informationen findet sich auch im <a href="http://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware">Wiki von freifunk.net</a>.</p>
 
 <h3 id="für-den-innenbereich">Für den Innenbereich</h3>
 
-<p>Für den schmalen Geldbeutel empfehlen wir den  <a href="http://www.heise.de/preisvergleich/tp-link-tl-wr841nd-a601787.html"><strong>TP-Link TL-WR841N</strong></a> für knapp 20 €.
-Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren TP-Link TL-WDR3600 (gebraucht ab ca. 40€), TL-WDR4300 (gebraucht ab ca. 45€) oder TL-WDR4900 (gebraucht ab ca 50 €).</p>
+<p>Für den schmalen Geldbeutel empfehlen wir den <strong>TP-Link TL-WDR3600</strong> (gebraucht ab ca. 10€ bis knapp 25 € zu haben).
+Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren <strong>TP-Link TL-WDR4300</strong> (gebraucht ab ca. 30€) oder <strong>TP-Link TL-WDR4900</strong> (gebraucht ab ca 50 €). Für den <strong>TP-Link TL-WR841N</strong> können wir nicht mehr empfehlen, da er für weitere Firmware-Entwicklungen zu wenig Flash- und RAM-Speicher zur Verfügung hat.</p>
 
 <h3 id="richtfunk-für-den-außenbereich">Richtfunk für den Außenbereich</h3>
 
@@ -144,16 +144,11 @@ Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren TP-Link TL-
 
 <p>Unter <strong>„1.“</strong> findest du die <strong>Modellnummer</strong> und unter <strong>„2.“</strong> die <strong>Revisionsnummer</strong>. „Ver 8.1“ steht dabei allgemein für Version 8, „Ver 7.4“ für Version 7 usw.</p>
 
-<p>Auf der <a href="firmware.html">Firmwareseite</a> suchst du dir nun genau dein Router-Modell in deiner Revision, und lädst die Datei für die <strong>“Erstinstallation”</strong> herunter.</p>
+<p>Im <a href="http://firmware.leipzig.freifunk.net:8004/srv2/gluon/downloader/firmware.php?id=0">Firmware-Donwloader</a> suchst du dir nun genau dein Router-Modell in deiner Revision, und lädst die Datei für die <strong>“Erstinstallation”</strong> herunter.</p>
 
-<p>In oberen Fall wäre das die Datei mit dem Namen: gluon-ffhb-<em>GLUONVERSION</em>+bremen<em>BREMERVERSION</em>-tp-link-tl-<strong>wr841n</strong>-nd-<strong>v8</strong>.bin. Achte bitte unbedingt darauf, dass Modellbezeichnung und Revision genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.</p>
+<p>In oberen Fall wäre das die Datei mit dem Namen: gluon-<em>GLUONVERSION</em>-tp-link-tl-<strong>wr841n</strong>-nd-<strong>v8</strong>.bin. Achte bitte unbedingt darauf, dass Modellbezeichnung und Revision genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.</p>
 
 <p><strong>Eine falsche Firmware kann dazu führen, dass wir den Router mit sehr großem Aufwand reanimieren müssen.</strong></p>
-
-<h6 id="ubiquiti-besonderheit-richtfunk">Ubiquiti Besonderheit (Richtfunk)</h6>
-<s>Für die Richtfunkgeräte Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridge muss das Image der Bullet benutzt werden.</s>
-
-<p><em>Dies entfällt ab Version 2015.1.2, in welcher separierte Images für alle Geräte eingeführt wurden.</em></p>
 
 <p><strong>Ganz wichtig:</strong> Auf der Konfigurationsseite für das Upgrade, wird auch die Version der Originalfirmware angezeigt. Ist die Versionsnummer &gt; 5.5.x muss zwingend ein Downgrade der Firmware durchgeführt werden. Eine detailierte Anleitung ist in Vorbereitung. Bitte kommt mit dem Gerät zu einem der Freifunktreffen, wir unterstützen dort gerne.</p>
 
@@ -212,7 +207,7 @@ Nach dem Speichern der Einstellungen startet der Knoten in den Produktivmodus ne
 
 <p><img src="http://jel.to/ff_pics/gluon_1.jpg" title="Neue Weboberfläche" /></p>
 
-<p>Zuerst kannst du dir einen <strong>beliebigen Namen</strong> für deinen  Freifunkrouter ausdenken (oder ihn so lassen).
+<p>Zuerst kannst du dir einen <strong>beliebigen Namen</strong> für deinen  Freifunkrouter ausdenken (oder ihn so lassen). Dieser Name erscheint dann auf der Freifunk-Karte.
 Außerdem musst du festlegen, ob die Firmware des Routers sich automatisch aktualisieren soll. In den meisten Fällen ist eine automatische Aktualisierung sinnvoll, so ist dein Router immer auf dem neusten Stand und unerwartete  Netzausfälle bleiben aus.</p>
 
 <p><img src="http://jel.to/ff_pics/gluon_2.png" width="350px" title="Mesh-VPN" /></p>
@@ -224,7 +219,7 @@ Außerdem musst du festlegen, ob die Firmware des Routers sich automatisch aktua
 <p><img src="http://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten" /></p>
 
 <p>Damit andere Freifunker oder Nachbarn den Router auch auf der <strong>Freifunk-Karte</strong> finden, können die <strong>Koordinaten</strong> des Betriebsortes des Routers eingetragen werden. Lässt man den Haken weg, so erscheint der Router nicht auf der Karte.
-Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf <a href="https://map.bremen.freifunk.net/" target="_blank">unserer Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (über das Stecknadel-Symbol oben rechts).</p>
+Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf <a href="http://karte.leipzig.freifunk.net:8018/meshviewer2/build" target="_blank">unserer Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (über das Stecknadel-Symbol oben rechts).</p>
 
 <p><img src="http://jel.to/ff_pics/gluon_3.png" width="350px" title="Kontakt" /></p>
 
@@ -251,7 +246,7 @@ Der folgende Bildschirm bestätigt dir die erfolgreiche Einrichtung. Dein Router
 
 <p><img src="http://jel.to/ff_pics/ff_an_fritz.jpg" title="Anschluss Freifunkrouter" /></p>
 
-<p>Das andere Ende des grauen LAN-Kabels kommt in den meist <strong>gelben LAN-Port deines Providerrouters</strong> (Fritzbox, Speedport, Easybox usw.) .<br />An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port <strong>(„2.“)</strong> steckt, musst du <strong>nichts verändern</strong> (hier das orangene Kabel).<br />Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz. Nach kurzer Zeit wird der Name deines Routers auf der <a href="https://map.bremen.freifunk.net">Knotenkarte</a> auftauchen.</p>
+<p>Das andere Ende des grauen LAN-Kabels kommt in den meist <strong>gelben LAN-Port deines Providerrouters</strong> (Fritzbox, Speedport, Easybox usw.) .<br />An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port <strong>(„2.“)</strong> steckt, musst du <strong>nichts verändern</strong> (hier das orangene Kabel).<br />Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz. Nach kurzer Zeit wird der Name deines Routers auf der <a href="http://karte.leipzig.freifunk.net:8018/meshviewer2/build">Knotenkarte</a> auftauchen.</p>
 
 <h2 id="expertenmodus">Expertenmodus</h2>
 
@@ -294,7 +289,7 @@ Wird dieser noch mit OpenWRT bespielt, ergeben sich zusätzliche Möglichkeiten 
     </ul>
   </footer>
   <div id="blur"></div>
-  <script src="/assets/main.js?f99b22a"></script>
+  <script src="/assets/main.js?6d10bbd"></script>
 </div></div></body>
 </html>
 <!-- vim: syntax=html sw=2 ts=2 sts=2 et
